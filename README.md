@@ -14,6 +14,8 @@ The system works in two parts:
 
 The conceptual design treats each added log to a fire as adding approximately 200 units of weight, so each log placed triggers a new projection state.
 
+When participants place new logs of wood into the weight-sensitive fire pit, new folk story films are projected throughout the exhibition space. This installation serves as a prototype for interactive modes of storytelling. 
+
 ---
 
 ## Setup
