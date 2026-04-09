@@ -1,6 +1,6 @@
 # Fire-Rhythms-
 
-An interactive installation combining Arduino and Max/MSP where real-time load sensor data drives dynamic video playback. The Arduino reads weight input via an HX711 load cell amplifier and streams values over serial to Max/MSP, which interprets load thresholds to trigger distinct video states across multiple projectors using mesh-warped output.
+An interactive installation using Arduino and Max/MSP in which placing logs on a weight-sensitive fire pit triggers folk-story projections. Load cell data (via HX711) is sent to Max/MSP, which maps weight thresholds to dynamic, multi-projector video states.
 
 **Project documentation:** [bellaciaramitaro.com/fire-rhythyms](https://www.bellaciaramitaro.com/fire-rhythyms) 
 
