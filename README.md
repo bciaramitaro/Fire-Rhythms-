@@ -4,7 +4,7 @@ An interactive installation combining Arduino and Max/MSP where real-time load s
 
 ---
 
-Overview
+## Overview
 
 The system works in two parts:
 
