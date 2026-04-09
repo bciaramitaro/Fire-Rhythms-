@@ -16,7 +16,7 @@ The conceptual design treats each added log to a fire as adding approximately 20
 
 ---
 
-Setup
+## Setup
 
 ### Hardware Requirements
 
@@ -27,7 +27,7 @@ Setup
 - Computer running Max/MSP 8.5+
 - Projector(s) connected to the computer
 
-Wiring
+### Wiring
 
 Connect the HX711 to the Arduino as follows:
 
@@ -38,7 +38,7 @@ Connect the HX711 to the Arduino as follows:
 | VCC       | 5V          |
 | GND       | GND         |
 
-Arduino Setup
+### Arduino Setup
 
 1. Install the [HX711 library by bogde](https://github.com/bogde/HX711) via the Arduino Library Manager.
 2. Open `weight-sensor.ino` in the Arduino IDE.
@@ -46,7 +46,7 @@ Arduino Setup
 4. Upload the sketch to your Arduino.
 5. Open the Serial Monitor (set to **57600 baud**) to confirm weight readings are streaming correctly.
 
-Max/MSP Setup
+### Max/MSP Setup
 
 1. Open `Weight_Sensor___Multiple_Projectors.maxpat` in Max/MSP 8.5 or later.
 2. Ensure the **Jitter Tools** package is installed (required for `jit.gl.meshwarp` and `jit.world`).
@@ -62,7 +62,7 @@ Max/MSP Setup
 7. Enable the `jit.world` render context by toggling it on (the toggle connected to `jit.world Testing1`).
 8. Use the mesh warp controls in each projector section to align your projection surfaces. Hit **write** to save warp settings and **read** to reload them in future sessions.
 
-Weight Thresholds
+### Weight Thresholds
 
 The patch fires bangs at the following cumulative weight values, each triggering a new video state:
 
