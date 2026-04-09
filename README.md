@@ -2,6 +2,8 @@
 
 An interactive installation combining Arduino and Max/MSP where real-time load sensor data drives dynamic video playback. The Arduino reads weight input via an HX711 load cell amplifier and streams values over serial to Max/MSP, which interprets load thresholds to trigger distinct video states across multiple projectors using mesh-warped output.
 
+**Project documentation:** [bellaciaramitaro.com/fire-rhythyms](https://www.bellaciaramitaro.com/fire-rhythyms) 
+
 ---
 
 ## Overview
